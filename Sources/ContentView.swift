@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct Contact: Identifiable {
+struct Contact: Identifiable, Hashable {
     let id = UUID()
     let name: String
     let email: String
